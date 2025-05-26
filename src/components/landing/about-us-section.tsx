@@ -13,7 +13,7 @@ export function AboutUsSection() {
               alt="Designer & Decor Logo"
               width={50}
               height={50}
-              className="rounded-sm"
+              className="rounded-sm flex-shrink-0"
               data-ai-hint="company logo"
             />
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">

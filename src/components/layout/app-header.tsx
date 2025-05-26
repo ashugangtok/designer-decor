@@ -1,6 +1,6 @@
 
 import Link from 'next/link';
-import Image from 'next/image'; // Added Image import
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu } from 'lucide-react';
@@ -23,7 +23,7 @@ export function AppHeader() {
             alt="Designer & Decor Logo" 
             width={40} 
             height={40} 
-            className="rounded-sm"
+            className="rounded-sm flex-shrink-0"
             data-ai-hint="company logo"
           />
           <span className="font-bold text-xl text-foreground">Designer &amp; Decor</span>
@@ -59,7 +59,7 @@ export function AppHeader() {
                 alt="Designer & Decor Logo" 
                 width={32} 
                 height={32} 
-                className="rounded-sm"
+                className="rounded-sm flex-shrink-0"
                 data-ai-hint="company logo"
               />
               <span className="font-bold text-foreground">Designer &amp; Decor</span>
