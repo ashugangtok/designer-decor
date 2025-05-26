@@ -29,7 +29,7 @@ export function WhyChooseUsSection() {
   return (
     <SectionWrapper id="why-choose-us" className="bg-accent/30">
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-foreground">Why Bespoke Spaces?</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-foreground">Why Designers and decor?</h2>
         <p className="mt-3 text-lg text-muted-foreground max-w-2xl mx-auto">
           Experience the difference with our commitment to quality, customization, and customer satisfaction.
         </p>

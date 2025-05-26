@@ -17,7 +17,7 @@ export function AppHeader() {
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Sparkles className="h-7 w-7 text-primary" />
-          <span className="font-bold text-xl text-foreground">Bespoke Spaces</span>
+          <span className="font-bold text-xl text-foreground">Designers and decor</span>
         </Link>
         
         <nav className="hidden md:flex gap-6 items-center">
@@ -46,7 +46,7 @@ export function AppHeader() {
             <nav className="grid gap-6 text-lg font-medium mt-8">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Sparkles className="h-6 w-6 text-primary" />
-              <span className="font-bold text-foreground">Bespoke Spaces</span>
+              <span className="font-bold text-foreground">Designers and decor</span>
             </Link>
               {navItems.map((item) => (
                 <Link
