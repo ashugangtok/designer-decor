@@ -18,14 +18,6 @@ export function AppHeader() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <Image 
-            src="/logo.jpg" 
-            alt="Designer & Decor Logo" 
-            width={40} 
-            height={40} 
-            className="rounded-sm flex-shrink-0"
-            data-ai-hint="company logo"
-          />
           <span className="font-bold text-xl text-foreground">Designer &amp; Decor</span>
         </Link>
         
@@ -54,14 +46,6 @@ export function AppHeader() {
           <SheetContent side="right">
             <nav className="grid gap-6 text-lg font-medium mt-8">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <Image 
-                src="/logo.jpg" 
-                alt="Designer & Decor Logo" 
-                width={32} 
-                height={32} 
-                className="rounded-sm flex-shrink-0"
-                data-ai-hint="company logo"
-              />
               <span className="font-bold text-foreground">Designer &amp; Decor</span>
             </Link>
               {navItems.map((item) => (
