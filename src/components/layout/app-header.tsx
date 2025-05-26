@@ -19,7 +19,7 @@ export function AppHeader() {
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Image 
-            src="https://placehold.co/40x40.png" 
+            src="/logo.jpg" 
             alt="Designer & Decor Logo" 
             width={40} 
             height={40} 
@@ -55,7 +55,7 @@ export function AppHeader() {
             <nav className="grid gap-6 text-lg font-medium mt-8">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Image 
-                src="https://placehold.co/32x32.png" 
+                src="/logo.jpg" 
                 alt="Designer & Decor Logo" 
                 width={32} 
                 height={32} 

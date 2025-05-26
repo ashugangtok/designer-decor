@@ -9,7 +9,7 @@ export function AboutUsSection() {
         <div className="animate-slide-in-left">
           <div className="flex items-center gap-3 mb-6">
             <Image
-              src="https://placehold.co/50x50.png"
+              src="/logo.jpg"
               alt="Designer & Decor Logo"
               width={50}
               height={50}
