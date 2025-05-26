@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { SectionWrapper } from '@/components/common/section-wrapper';
 
@@ -6,9 +7,19 @@ export function AboutUsSection() {
     <SectionWrapper id="about-us" className="bg-accent/30">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="animate-slide-in-left">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            About Designer &amp; Decor
-          </h2>
+          <div className="flex items-center gap-3 mb-6">
+            <Image
+              src="https://placehold.co/50x50.png"
+              alt="Designer & Decor Logo"
+              width={50}
+              height={50}
+              className="rounded-sm"
+              data-ai-hint="company logo"
+            />
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+              About Designer &amp; Decor
+            </h2>
+          </div>
           <p className="text-lg text-muted-foreground mb-4">
             Welcome to Designer &amp; Decor, where your vision for a perfect interior comes to life. As a family-run business with over a decade of experience, we pride ourselves on delivering exceptional quality and personalized service.
           </p>
