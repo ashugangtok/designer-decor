@@ -1,5 +1,6 @@
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { SectionWrapper } from '@/components/common/section-wrapper';
 
@@ -10,6 +11,7 @@ const products = [
     imageSrc: 'https://placehold.co/600x400',
     imageAlt: 'Stylish living room furniture',
     aiHint: 'living room furniture',
+    href: '/products/living-room-furniture',
   },
   {
     title: 'Elegant Curtains',
@@ -17,6 +19,7 @@ const products = [
     imageSrc: 'https://placehold.co/600x400',
     imageAlt: 'Elegant curtains hanging in a window',
     aiHint: 'elegant curtains',
+    href: '/products/elegant-curtains',
   },
   {
     title: 'Custom Blinds',
@@ -24,6 +27,7 @@ const products = [
     imageSrc: 'https://placehold.co/600x400',
     imageAlt: 'Custom blinds fitted to a window',
     aiHint: 'custom blinds window',
+    href: '/products/custom-blinds',
   },
   {
     title: 'Wallpapers',
@@ -31,6 +35,7 @@ const products = [
     imageSrc: 'https://placehold.co/600x400',
     imageAlt: 'Assortment of stylish wallpapers',
     aiHint: 'stylish wallpapers',
+    href: '/products/wallpapers',
   },
 ];
 
@@ -43,24 +48,26 @@ export function ProductHighlightsSection() {
           Explore our range of bespoke home decor solutions, crafted with care and precision.
         </p>
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8"> {/* Updated grid to accommodate 4 items */}
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
         {products.map((product, index) => (
-          <Card key={product.title} className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 animate-fade-in-up" style={{ animationDelay: `${index * 150}ms` }}>
-            <CardHeader className="p-0">
-              <Image
-                src={product.imageSrc}
-                alt={product.imageAlt}
-                width={600}
-                height={400}
-                className="object-cover aspect-[3/2] w-full"
-                data-ai-hint={product.aiHint}
-              />
-            </CardHeader>
-            <CardContent className="p-6">
-              <CardTitle className="text-2xl mb-3">{product.title}</CardTitle>
-              <p className="text-muted-foreground">{product.description}</p>
-            </CardContent>
-          </Card>
+          <Link key={product.title} href={product.href} className="block group">
+            <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in-up h-full flex flex-col group-hover:ring-2 group-hover:ring-primary">
+              <CardHeader className="p-0">
+                <Image
+                  src={product.imageSrc}
+                  alt={product.imageAlt}
+                  width={600}
+                  height={400}
+                  className="object-cover aspect-[3/2] w-full"
+                  data-ai-hint={product.aiHint}
+                />
+              </CardHeader>
+              <CardContent className="p-6 flex-grow flex flex-col">
+                <CardTitle className="text-2xl mb-3">{product.title}</CardTitle>
+                <p className="text-muted-foreground flex-grow">{product.description}</p>
+              </CardContent>
+            </Card>
+          </Link>
         ))}
       </div>
     </SectionWrapper>
