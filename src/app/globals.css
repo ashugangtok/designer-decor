@@ -3,6 +3,13 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply scroll-smooth;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
   :root {
     --background: 48 33% 94%; /* #F2F1EC */
     --foreground: 40 10% 20%; /* Dark Brown #4A443D */
