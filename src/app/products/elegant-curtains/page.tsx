@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { SectionWrapper } from '@/components/common/section-wrapper';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Wind, Layers, Palette, VenetianBlind } from 'lucide-react'; // Using VenetianBlind as a generic icon
+import { Wind, Layers, Palette, SwatchBook } from 'lucide-react'; // Replaced VenetianBlind with SwatchBook
 
 export const metadata: Metadata = {
   title: 'Elegant Curtains | Designers and decor',
@@ -40,7 +40,7 @@ const curtainTypes = [
   {
     title: 'Patterned Curtains',
     description: 'Explore a wide variety of patterns and prints to make a statement with your window treatments.',
-    icon: <VenetianBlind className="h-10 w-10 text-primary" />, // Generic icon
+    icon: <SwatchBook className="h-10 w-10 text-primary" />, // Using SwatchBook for patterns
     imageSrc: 'https://placehold.co/600x400',
     imageAlt: 'Curtains with floral patterns',
     aiHint: 'patterned curtains floral',

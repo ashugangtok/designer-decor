@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { SectionWrapper } from '@/components/common/section-wrapper';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { VenetianBlind, Aperture, ShieldCheck, Settings2 } from 'lucide-react'; // Using Aperture for Roller, ShieldCheck for Privacy
+import { SlidersHorizontal, Aperture, Layers, Settings2 } from 'lucide-react'; // Using SlidersHorizontal for Venetian, Aperture for Roller, Layers for Roman, and Settings2 for Vertical blinds.
 
 export const metadata: Metadata = {
   title: 'Custom Blinds | Designers and decor',
@@ -16,7 +16,7 @@ const blindTypes = [
   {
     title: 'Venetian Blinds',
     description: 'Classic and versatile, offering excellent light control with adjustable slats. Available in wood, faux wood, and aluminum.',
-    icon: <VenetianBlind className="h-10 w-10 text-primary" />,
+    icon: <SlidersHorizontal className="h-10 w-10 text-primary" />,
     imageSrc: 'https://placehold.co/600x400',
     imageAlt: 'Modern Venetian blinds',
     aiHint: 'venetian blinds window',
@@ -32,7 +32,7 @@ const blindTypes = [
   {
     title: 'Roman Blinds',
     description: 'Elegant fabric blinds that fold neatly when raised, adding a touch of softness and sophistication to any room.',
-    icon: <Layers className="h-10 w-10 text-primary" />, // Re-using Layers icon
+    icon: <Layers className="h-10 w-10 text-primary" />,
     imageSrc: 'https://placehold.co/600x400',
     imageAlt: 'Stylish Roman blinds',
     aiHint: 'roman blinds fabric',
@@ -40,7 +40,7 @@ const blindTypes = [
   {
     title: 'Vertical Blinds',
     description: 'Ideal for large windows and patio doors, vertical blinds offer practical light control and a contemporary feel.',
-    icon: <Settings2 className="h-10 w-10 text-primary" />, // Using Settings2 as a generic icon
+    icon: <Settings2 className="h-10 w-10 text-primary" />,
     imageSrc: 'https://placehold.co/600x400',
     imageAlt: 'Vertical blinds on a large window',
     aiHint: 'vertical blinds patio',
