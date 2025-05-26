@@ -8,7 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { SlidersHorizontal, Aperture, Layers, Settings2 } from 'lucide-react'; // Using SlidersHorizontal for Venetian, Aperture for Roller, Layers for Roman, and Settings2 for Vertical blinds.
 
 export const metadata: Metadata = {
-  title: 'Custom Blinds | Designers and decor',
+  title: 'Custom Blinds | Designer & Decor',
   description: 'Explore a variety of custom-made blinds including Venetian, Roman, roller, and vertical blinds. Perfect for light control and privacy.',
 };
 
@@ -81,7 +81,7 @@ export default function CustomBlindsPage() {
             Perfectly Fitted Custom Blinds
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-fade-in-up" style={{animationDelay: '0.2s'}}>
-            Discover the ideal balance of style, privacy, and light control with custom-made blinds from Designers and decor. Tailored to your exact specifications.
+            Discover the ideal balance of style, privacy, and light control with custom-made blinds from Designer &amp; Decor. Tailored to your exact specifications.
           </p>
           <Button asChild size="lg" className="animate-fade-in-up" style={{animationDelay: '0.4s'}}>
             <Link href="/#contact">Get a Free Blinds Quote</Link>
@@ -177,7 +177,7 @@ export default function CustomBlindsPage() {
       <SectionWrapper id="why-custom-blinds">
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-            The Designers and decor Advantage for Blinds
+            The Designer &amp; Decor Advantage for Blinds
           </h2>
           <p className="mt-3 text-lg text-muted-foreground max-w-2xl mx-auto">
             Precision, quality, and service define our custom blind solutions.

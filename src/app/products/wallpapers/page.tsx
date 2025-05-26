@@ -8,7 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Layers, Palette, Sparkles, Wand2 } from 'lucide-react'; // Using Wand2 for Designer
 
 export const metadata: Metadata = {
-  title: 'Wallpapers | Designers and decor',
+  title: 'Wallpapers | Designer & Decor',
   description: 'Transform your walls with our exquisite collection of high-quality wallpapers. Explore textures, patterns, murals, and designer collections.',
 };
 
@@ -81,7 +81,7 @@ export default function WallpapersPage() {
             Redefine Your Walls with Stunning Wallpapers
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-fade-in-up" style={{animationDelay: '0.2s'}}>
-            Elevate your interiors with Designers and decor's curated collection of premium wallpapers. From timeless classics to contemporary statements, find the perfect backdrop for your life.
+            Elevate your interiors with Designer &amp; Decor's curated collection of premium wallpapers. From timeless classics to contemporary statements, find the perfect backdrop for your life.
           </p>
           <Button asChild size="lg" className="animate-fade-in-up" style={{animationDelay: '0.4s'}}>
             <Link href="/#contact">Explore Wallpaper Options</Link>
@@ -177,10 +177,10 @@ export default function WallpapersPage() {
       <SectionWrapper id="why-our-wallpapers">
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-            Quality & Expertise in Every Roll
+            Quality &amp; Expertise in Every Roll
           </h2>
           <p className="mt-3 text-lg text-muted-foreground max-w-2xl mx-auto">
-            Choose Designers and decor for an unparalleled wallpaper experience.
+            Choose Designer &amp; Decor for an unparalleled wallpaper experience.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8 text-center">

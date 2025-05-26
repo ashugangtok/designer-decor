@@ -14,8 +14,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Designers and decor | Custom Furniture, Curtains & Blinds',
-  description: 'Transform Your Space with Custom Comfort & Style. Designers and decor offers premium furniture, designer curtains, and tailor-made blinds for homes and offices.',
+  title: 'Designer & Decor | Custom Furniture, Curtains & Blinds',
+  description: 'Transform Your Space with Custom Comfort & Style. Designer & Decor offers premium furniture, designer curtains, and tailor-made blinds for homes and offices.',
   keywords: 'home decor, custom furniture, curtains, blinds, interior design, bespoke, luxury furniture',
 };
 

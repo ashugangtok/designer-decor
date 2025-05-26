@@ -8,7 +8,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Sofa, Tv, Lamp, SquareAsterisk } from 'lucide-react'; // Using SquareAsterisk as a generic icon for tables
 
 export const metadata: Metadata = {
-  title: 'Living Room Furniture | Designers and decor',
+  title: 'Living Room Furniture | Designer & Decor',
   description: 'Discover custom-made living room furniture including sofas, coffee tables, entertainment units, and armchairs. Crafted for style and comfort.',
 };
 
@@ -81,7 +81,7 @@ export default function LivingRoomFurniturePage() {
             Exquisite Living Room Furniture
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-fade-in-up" style={{animationDelay: '0.2s'}}>
-            Craft your dream living space with our custom-made sofas, tables, entertainment units, and more. At Designers and decor, we blend timeless design with unparalleled craftsmanship to bring your vision to life.
+            Craft your dream living space with our custom-made sofas, tables, entertainment units, and more. At Designer &amp; Decor, we blend timeless design with unparalleled craftsmanship to bring your vision to life.
           </p>
           <Button asChild size="lg" className="animate-fade-in-up" style={{animationDelay: '0.4s'}}>
             <Link href="/#contact">Request a Free Consultation</Link>
@@ -177,7 +177,7 @@ export default function LivingRoomFurniturePage() {
       <SectionWrapper id="why-custom-furniture">
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-            The Designers and decor Difference
+            The Designer &amp; Decor Difference
           </h2>
           <p className="mt-3 text-lg text-muted-foreground max-w-2xl mx-auto">
             Investing in custom living room furniture means investing in quality, personality, and perfect fit.

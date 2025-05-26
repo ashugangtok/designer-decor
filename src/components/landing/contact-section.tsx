@@ -10,7 +10,7 @@ export function ContactSection() {
   const shopAddress = "123 Decor St, Anytown, USA";
   const googleMapsLink = `https://maps.google.com/?q=${encodeURIComponent(shopAddress)}`;
   const whatsappNumber = "12345678900"; // International format without + or spaces
-  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent("Hello Designers and decor, I'd like to inquire about a free consultation.")}`;
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent("Hello Designer & Decor, I'd like to inquire about a free consultation.")}`;
   const phoneNumber = "+1 (234) 567-8900"; // Display format for phone
 
   return (

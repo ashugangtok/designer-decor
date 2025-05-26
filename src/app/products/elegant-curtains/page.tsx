@@ -8,7 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Wind, Layers, Palette, SwatchBook } from 'lucide-react'; // Replaced VenetianBlind with SwatchBook
 
 export const metadata: Metadata = {
-  title: 'Elegant Curtains | Designers and decor',
+  title: 'Elegant Curtains | Designer & Decor',
   description: 'Discover custom-made elegant curtains from a wide range of luxurious fabrics, patterns, and designs. Perfect for enhancing any room.',
 };
 
@@ -81,7 +81,7 @@ export default function ElegantCurtainsPage() {
             Drape Your World in Elegance
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-fade-in-up" style={{animationDelay: '0.2s'}}>
-            At Designers and decor, we craft exquisite custom curtains that transform your windows into stunning focal points. Discover a world of luxurious fabrics, intricate designs, and perfect tailoring.
+            At Designer &amp; Decor, we craft exquisite custom curtains that transform your windows into stunning focal points. Discover a world of luxurious fabrics, intricate designs, and perfect tailoring.
           </p>
           <Button asChild size="lg" className="animate-fade-in-up" style={{animationDelay: '0.4s'}}>
             <Link href="/#contact">Consult Our Curtain Experts</Link>
