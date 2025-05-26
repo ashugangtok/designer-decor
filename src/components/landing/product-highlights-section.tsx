@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { SectionWrapper } from '@/components/common/section-wrapper';
@@ -24,6 +25,13 @@ const products = [
     imageAlt: 'Custom blinds fitted to a window',
     aiHint: 'custom blinds window',
   },
+  {
+    title: 'Wallpapers',
+    description: 'Explore a diverse range of high-quality wallpapers, from classic patterns to modern designs, to elevate your walls.',
+    imageSrc: 'https://placehold.co/600x400',
+    imageAlt: 'Assortment of stylish wallpapers',
+    aiHint: 'stylish wallpapers',
+  },
 ];
 
 export function ProductHighlightsSection() {
@@ -35,7 +43,7 @@ export function ProductHighlightsSection() {
           Explore our range of bespoke home decor solutions, crafted with care and precision.
         </p>
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8"> {/* Updated grid to accommodate 4 items */}
         {products.map((product, index) => (
           <Card key={product.title} className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 animate-fade-in-up" style={{ animationDelay: `${index * 150}ms` }}>
             <CardHeader className="p-0">
