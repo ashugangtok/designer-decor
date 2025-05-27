@@ -8,6 +8,14 @@ export function AboutUsSection() {
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="animate-slide-in-left">
           <div className="flex items-center gap-3 mb-6">
+            <Image
+              src="/logo.jpg" // Assuming logo.jpg is in the public folder
+              alt="Designer & Decor Logo"
+              width={50} // Adjust size as needed
+              height={50} // Adjust size as needed
+              className="rounded-full flex-shrink-0"
+              data-ai-hint="company logo"
+            />
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
               About Designer &amp; Decor
             </h2>
