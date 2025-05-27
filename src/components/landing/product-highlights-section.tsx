@@ -8,7 +8,7 @@ const products = [
   {
     title: 'Living Room Furniture',
     description: 'Discover our collection of premium sofas, coffee tables, and entertainment units, designed for comfort and style.',
-    imageSrc: '/1.png', // Using /1.png as requested
+    imageSrc: '/hero-background.png', // Using /hero-background.png
     imageAlt: 'Stylish living room furniture',
     aiHint: 'living room furniture',
     href: '/products/living-room-furniture',
