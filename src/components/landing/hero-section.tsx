@@ -9,12 +9,12 @@ export function HeroSection() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url(/1.png)', // Updated image path
+          backgroundImage: 'url(/1.png)', // References /public/1.png
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
         }}
-        data-ai-hint="living room custom blinds furniture" // Added generic hint as specific context unknown
+        data-ai-hint="living room custom blinds furniture"
       >
         {/* This div is for the background image */}
       </div>
