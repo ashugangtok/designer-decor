@@ -62,8 +62,8 @@ export function ContactSection() {
             </p>
             <Link href={googleMapsLink} target="_blank" rel="noopener noreferrer" className="inline-block">
               <Image 
-                src="https://placehold.co/600x350.png" 
-                alt="Designer and Decor Shop Location Map" 
+                src="/map-image.png" 
+                alt="Designer & Decor Showroom Location" 
                 width={600} 
                 height={350} 
                 data-ai-hint="map location" 
