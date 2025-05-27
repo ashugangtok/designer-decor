@@ -9,7 +9,7 @@ export function HeroSection() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url(/1.png)', // References /public/1.png
+          backgroundImage: 'url(https://placehold.co/1200x800.png)', // Using a reliable placeholder
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
