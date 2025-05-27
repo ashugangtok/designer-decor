@@ -33,12 +33,12 @@ export function AboutUsSection() {
         </div>
         <div className="animate-slide-in-right">
           <Image
-            src="/logo.jpg" // Changed from placeholder
-            alt="Designer & Decor Logo" // Updated alt text
+            src="/about-us-image.png" // Updated image source
+            alt="Designer & Decor team or showroom" // Updated alt text
             width={600}
             height={450}
-            className="rounded-xl shadow-xl object-contain aspect-[4/3]" // Changed object-cover to object-contain
-            data-ai-hint="company logo" // Updated AI hint
+            className="rounded-xl shadow-xl object-cover aspect-[4/3]" // Ensuring object-cover for a scenic image
+            data-ai-hint="team showroom" // Updated AI hint
           />
         </div>
       </div>
