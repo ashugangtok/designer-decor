@@ -15,7 +15,7 @@ export function HeroSection() {
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
         }}
-        data-ai-hint="living room custom blinds furniture" // Keep the hint for potential future use
+        data-ai-hint="living room custom blinds furniture" 
       >
         {/* The Next/Image component for background has been replaced by CSS background-image */}
       </div>
