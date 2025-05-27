@@ -14,7 +14,7 @@ export function AboutUsSection() {
               alt="Designer & Decor Logo"
               width={50}
               height={50}
-              className="rounded-full flex-shrink-0 border-2 border-red-500" // Temporary red border
+              className="rounded-full flex-shrink-0" // Removed temporary border
               data-ai-hint="company logo"
             />
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">

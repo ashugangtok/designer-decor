@@ -24,7 +24,7 @@ export function AppHeader() {
             alt="Designer & Decor Logo"
             width={36}
             height={36}
-            className="rounded-full flex-shrink-0 border-2 border-red-500" // Temporary red border
+            className="rounded-full flex-shrink-0" // Removed temporary border
             data-ai-hint="company logo"
           />
           <span className="font-bold text-xl text-foreground">Designer &amp; Decor</span>
@@ -61,7 +61,7 @@ export function AppHeader() {
                 alt="Designer & Decor Logo"
                 width={36}
                 height={36}
-                className="rounded-full flex-shrink-0 border-2 border-red-500" // Temporary red border
+                className="rounded-full flex-shrink-0" // Removed temporary border
                 data-ai-hint="company logo"
               />
               <span className="font-bold text-foreground">Designer &amp; Decor</span>
