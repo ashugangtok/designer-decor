@@ -18,12 +18,13 @@ export function AppHeader() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
+          {/* Ensure logo.jpg is in the /public folder */}
           <Image
-            src="/logo.jpg" // Assumes logo.jpg is in /public
+            src="/logo.jpg" 
             alt="Designer & Decor Logo"
             width={36}
             height={36}
-            className="rounded-full flex-shrink-0"
+            className="rounded-full flex-shrink-0 border-2 border-red-500" // Temporary red border
             data-ai-hint="company logo"
           />
           <span className="font-bold text-xl text-foreground">Designer &amp; Decor</span>
@@ -54,12 +55,13 @@ export function AppHeader() {
           <SheetContent side="right">
             <nav className="grid gap-6 text-lg font-medium mt-8">
             <Link href="/" className="flex items-center gap-2 mb-4">
+              {/* Ensure logo.jpg is in the /public folder */}
               <Image
-                src="/logo.jpg" // Assumes logo.jpg is in /public
+                src="/logo.jpg"
                 alt="Designer & Decor Logo"
                 width={36}
                 height={36}
-                className="rounded-full flex-shrink-0"
+                className="rounded-full flex-shrink-0 border-2 border-red-500" // Temporary red border
                 data-ai-hint="company logo"
               />
               <span className="font-bold text-foreground">Designer &amp; Decor</span>
