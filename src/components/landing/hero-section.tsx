@@ -1,5 +1,4 @@
 
-import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { SectionWrapper } from '@/components/common/section-wrapper';
@@ -10,14 +9,14 @@ export function HeroSection() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url(/hero-background.png)', // References public/hero-background.png
+          // Temporarily using a public placeholder image
+          backgroundImage: 'url(https://placehold.co/1200x800.png)', 
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
         }}
-        data-ai-hint="living room custom blinds furniture" 
       >
-        {/* The Next/Image component for background has been replaced by CSS background-image */}
+        {/* This div is for the background image */}
       </div>
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent z-10"></div>
       <div className="relative z-20 container text-center text-white animate-fade-in-up">
