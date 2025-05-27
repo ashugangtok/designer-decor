@@ -1,23 +1,22 @@
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { SectionWrapper } from '@/components/common/section-wrapper';
 
 export function HeroSection() {
   return (
     <SectionWrapper className="!py-0 relative min-h-[calc(100vh-4rem)] md:min-h-[700px] lg:min-h-[800px] flex items-center justify-center overflow-hidden">
-      <div
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: 'url(/hero-background.png)', // Using /hero-background.png
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-        }}
+      <Image
+        src="/hero-background.png" // Ensure this file is in your /public folder
+        alt="Elegant interior with custom decor"
+        layout="fill"
+        objectFit="cover"
+        quality={85} // Optional: adjust quality
+        priority // Ensures this image is loaded quickly
+        className="z-0"
         data-ai-hint="living room custom blinds furniture"
-      >
-        {/* This div is for the background image */}
-      </div>
+      />
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent z-10"></div>
       <div className="relative z-20 container text-center text-white animate-fade-in-up">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold !text-white drop-shadow-lg">
