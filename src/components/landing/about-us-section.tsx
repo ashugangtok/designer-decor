@@ -9,10 +9,10 @@ export function AboutUsSection() {
         <div className="animate-slide-in-left">
           <div className="flex items-center gap-3 mb-6">
             <Image
-              src="/logo.jpg" // Assuming logo.jpg is in the public folder
+              src="/logo.jpg" // Assumes logo.jpg is in the public folder
               alt="Designer & Decor Logo"
-              width={50} // Adjust size as needed
-              height={50} // Adjust size as needed
+              width={50}
+              height={50}
               className="rounded-full flex-shrink-0"
               data-ai-hint="company logo"
             />
