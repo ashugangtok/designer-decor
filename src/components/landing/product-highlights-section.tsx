@@ -8,7 +8,7 @@ const products = [
   {
     title: 'Living Room Furniture',
     description: 'Discover our collection of premium sofas, coffee tables, and entertainment units, designed for comfort and style.',
-    imageSrc: 'https://placehold.co/600x400',
+    imageSrc: '/1.png', // Updated image path
     imageAlt: 'Stylish living room furniture',
     aiHint: 'living room furniture',
     href: '/products/living-room-furniture',
