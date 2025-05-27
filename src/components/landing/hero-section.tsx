@@ -9,12 +9,12 @@ export function HeroSection() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          // Temporarily using a public placeholder image
-          backgroundImage: 'url(https://placehold.co/1200x800.png)', 
+          backgroundImage: 'url(/1.png)', // Updated image path
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
         }}
+        data-ai-hint="living room custom blinds furniture" // Added generic hint as specific context unknown
       >
         {/* This div is for the background image */}
       </div>
