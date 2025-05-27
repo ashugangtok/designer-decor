@@ -9,16 +9,15 @@ export function HeroSection() {
     <SectionWrapper className="!py-0 relative min-h-[calc(100vh-4rem)] md:min-h-[700px] lg:min-h-[800px] flex items-center justify-center overflow-hidden">
       <div
         className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: 'url(/hero-background.png)', // References public/hero-background.png
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+        }}
+        data-ai-hint="living room custom blinds furniture" // Keep the hint for potential future use
       >
-        <Image
-          src="/hero-background.png" // References public/hero-background.png
-          alt="Beautiful living room with custom blinds and furniture"
-          layout="fill"
-          objectFit="cover"
-          quality={85}
-          data-ai-hint="living room custom blinds furniture"
-          priority
-        />
+        {/* The Next/Image component for background has been replaced by CSS background-image */}
       </div>
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent z-10"></div>
       <div className="relative z-20 container text-center text-white animate-fade-in-up">
