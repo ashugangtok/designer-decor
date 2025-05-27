@@ -10,11 +10,11 @@ export function AboutUsSection() {
           <div className="flex items-center gap-3 mb-6">
             {/* Ensure logo.jpg is in the /public folder */}
             <Image
-              src="/logo.jpg" 
+              src="/logo.jpg"
               alt="Designer & Decor Logo"
               width={50}
               height={50}
-              className="rounded-full flex-shrink-0" // Removed temporary border
+              className="rounded-full flex-shrink-0"
               data-ai-hint="company logo"
             />
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
@@ -33,12 +33,12 @@ export function AboutUsSection() {
         </div>
         <div className="animate-slide-in-right">
           <Image
-            src="https://placehold.co/600x450"
-            alt="Designer & Decor shop owner or storefront"
+            src="/logo.jpg" // Changed from placeholder
+            alt="Designer & Decor Logo" // Updated alt text
             width={600}
             height={450}
-            className="rounded-xl shadow-xl object-cover aspect-[4/3]"
-            data-ai-hint="decor shop owner"
+            className="rounded-xl shadow-xl object-contain aspect-[4/3]" // Changed object-cover to object-contain
+            data-ai-hint="company logo" // Updated AI hint
           />
         </div>
       </div>
