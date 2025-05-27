@@ -11,11 +11,11 @@ export function AboutUsSection() {
             {/* Ensure logo.jpg is in the /public folder */}
             <Image
               src="/logo.jpg"
-              alt="Designer & Decor Logo"
+              alt="Designer & Decor Logo Small"
               width={50}
               height={50}
               className="rounded-full flex-shrink-0"
-              data-ai-hint="company logo"
+              data-ai-hint="company logo small"
             />
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
               About Designer &amp; Decor
@@ -33,12 +33,12 @@ export function AboutUsSection() {
         </div>
         <div className="animate-slide-in-right">
           <Image
-            src="/about-us-image.png" // Updated image source
-            alt="Designer & Decor team or showroom" // Updated alt text
+            src="/about-us-image.png" 
+            alt="Designer & Decor Logo" 
             width={600}
             height={450}
-            className="rounded-xl shadow-xl object-cover aspect-[4/3]" // Ensuring object-cover for a scenic image
-            data-ai-hint="team showroom" // Updated AI hint
+            className="rounded-xl shadow-xl object-contain aspect-[4/3]" 
+            data-ai-hint="company logo main" 
           />
         </div>
       </div>
