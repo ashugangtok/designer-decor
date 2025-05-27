@@ -89,7 +89,7 @@ export default function CustomBlindsPage() {
         </div>
         <div className="mt-12 md:mt-16 animate-zoom-in" style={{animationDelay: '0.6s'}}>
           <Image
-            src="https://placehold.co/1200x600"
+            src="/customblinds.png" // Updated
             alt="Modern living room with sleek custom blinds"
             width={1200}
             height={600}

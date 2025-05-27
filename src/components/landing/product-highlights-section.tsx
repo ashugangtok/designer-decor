@@ -8,7 +8,7 @@ const products = [
   {
     title: 'Living Room Furniture',
     description: 'Discover our collection of premium sofas, coffee tables, and entertainment units, designed for comfort and style.',
-    imageSrc: '/hero-background.png', // Using /hero-background.png
+    imageSrc: '/hero-background.png',
     imageAlt: 'Stylish living room furniture',
     aiHint: 'living room furniture',
     href: '/products/living-room-furniture',
@@ -16,7 +16,7 @@ const products = [
   {
     title: 'Elegant Curtains',
     description: 'Choose from a wide range of luxurious fabrics and designs to create the perfect window dressing for any room.',
-    imageSrc: 'https://placehold.co/600x400',
+    imageSrc: '/certain.png', // Updated
     imageAlt: 'Elegant curtains hanging in a window',
     aiHint: 'elegant curtains',
     href: '/products/elegant-curtains',
@@ -24,7 +24,7 @@ const products = [
   {
     title: 'Custom Blinds',
     description: 'Tailor-made blinds in various styles, including Venetian, Roman, and roller, offering privacy and light control.',
-    imageSrc: 'https://placehold.co/600x400',
+    imageSrc: '/customblinds.png', // Updated
     imageAlt: 'Custom blinds fitted to a window',
     aiHint: 'custom blinds window',
     href: '/products/custom-blinds',
@@ -32,7 +32,7 @@ const products = [
   {
     title: 'Wallpapers',
     description: 'Explore a diverse range of high-quality wallpapers, from classic patterns to modern designs, to elevate your walls.',
-    imageSrc: 'https://placehold.co/600x400',
+    imageSrc: '/wallpapers.png', // Updated
     imageAlt: 'Assortment of stylish wallpapers',
     aiHint: 'stylish wallpapers',
     href: '/products/wallpapers',

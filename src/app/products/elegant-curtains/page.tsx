@@ -89,7 +89,7 @@ export default function ElegantCurtainsPage() {
         </div>
         <div className="mt-12 md:mt-16 animate-zoom-in" style={{animationDelay: '0.6s'}}>
           <Image
-            src="https://placehold.co/1200x600"
+            src="/certain.png" // Updated
             alt="Luxurious curtains in a beautifully decorated room"
             width={1200}
             height={600}
