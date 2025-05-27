@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -7,13 +8,13 @@ export function HeroSection() {
   return (
     <SectionWrapper className="!py-0 relative min-h-[calc(100vh-4rem)] md:min-h-[700px] lg:min-h-[800px] flex items-center justify-center overflow-hidden">
       <Image
-        src="https://placehold.co/1920x1080"
+        src="/hero-background.png" // Changed from placeholder to local image
         alt="Beautiful living room with custom blinds and furniture"
         layout="fill"
         objectFit="cover"
         quality={85}
         className="z-0"
-        data-ai-hint="living room custom blinds furniture"
+        data-ai-hint="living room custom blinds furniture" // Kept existing hint, user can advise if it needs changing
         priority
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent z-10"></div>
