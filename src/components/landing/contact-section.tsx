@@ -1,3 +1,4 @@
+
 import { SectionWrapper } from '@/components/common/section-wrapper';
 import { ContactForm } from './contact-form';
 import Image from 'next/image';
@@ -7,8 +8,8 @@ import { Phone, MessageSquare, MapPin } from 'lucide-react';
 
 export function ContactSection() {
   // Replace with your actual address and WhatsApp number
-  const shopAddress = "123 Decor St, Anytown, USA";
-  const googleMapsLink = `https://maps.google.com/?q=${encodeURIComponent(shopAddress)}`;
+  const shopAddress = "123 Decor St, Anytown, USA"; // You might want to update this address text
+  const googleMapsLink = `https://www.google.com/maps/place/Designer+and+Decor/@26.7469348,88.4381079,63m/data=!3m2!1e3!5s0x39e441a71138c6d3:0x6fb4a11b563e8a69!4m6!3m5!1s0x39e441539b200599:0x5044d3f3df264f3f!8m2!3d26.7469469!4d88.4380183!16s%2Fg%2F11q9bngr6g?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D`;
   const whatsappNumber = "12345678900"; // International format without + or spaces
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent("Hello Designer & Decor, I'd like to inquire about a free consultation.")}`;
   const phoneNumber = "+1 (234) 567-8900"; // Display format for phone
@@ -57,12 +58,12 @@ export function ContactSection() {
             <h3 className="text-xl font-semibold text-foreground mb-3">Visit Our Showroom</h3>
             <p className="text-muted-foreground mb-2 flex items-center">
               <MapPin className="h-5 w-5 mr-2 text-primary inline-block" /> 
-              {shopAddress}
+              Designer and Decor Showroom {/* Updated based on the map link */}
             </p>
             <Link href={googleMapsLink} target="_blank" rel="noopener noreferrer" className="inline-block">
               <Image 
                 src="https://placehold.co/600x350" 
-                alt="Shop Location Map" 
+                alt="Designer and Decor Shop Location Map" 
                 width={600} 
                 height={350} 
                 data-ai-hint="map location address" 
