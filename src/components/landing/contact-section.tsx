@@ -10,9 +10,9 @@ export function ContactSection() {
   // Replace with your actual address and WhatsApp number
   const shopAddress = "123 Decor St, Anytown, USA"; // You might want to update this address text
   const googleMapsLink = `https://www.google.com/maps/place/Designer+and+Decor/@26.7469348,88.4381079,63m/data=!3m2!1e3!5s0x39e441a71138c6d3:0x6fb4a11b563e8a69!4m6!3m5!1s0x39e441539b200599:0x5044d3f3df264f3f!8m2!3d26.7469469!4d88.4380183!16s%2Fg%2F11q9bngr6g?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D`;
-  const whatsappNumber = "12345678900"; // International format without + or spaces
+  const whatsappNumber = "919749081171"; // International format without + or spaces
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent("Hello Designer & Decor, I'd like to inquire about a free consultation.")}`;
-  const phoneNumber = "+1 (234) 567-8900"; // Display format for phone
+  const phoneNumber = "+1 (234) 567-8900"; // Display format for phone - Note: This is separate from WhatsApp
 
   return (
     <SectionWrapper id="contact" className="pb-20 md:pb-32">
